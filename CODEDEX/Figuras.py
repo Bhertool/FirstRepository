@@ -214,7 +214,7 @@ else:
 
 
 #Este codigo dibuja la silueta de un corazón con asteriscos (*) en la consola.
-n = int(input("ingrese el valor de n numero positivo impar mayor a 15 para dibujar un corazón: "))
+n = int(input("ingrese el valor de (n) numero positivo impar mayor a 15 para dibujar un corazón: "))
 
 f = 0
 izq = 1
@@ -285,6 +285,6 @@ if n % 2 == 1:
             izq=izq+1
             der=der-1
     else:
-        print("n deve ser positivo mayo a 15.")
+        print("(n) deve ser positivo mayo a 15.")
 else:
-    print("n deve ser impar.")
+    print("(n) deve ser impar.")
